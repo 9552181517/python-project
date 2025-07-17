@@ -3,10 +3,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 print("Welcome to all, make your graphs  like pie graph,plot graph,bar graph if you want to exit simply type exit/Exit  ")
 print("i am working on this program . i try to add more special fretures til enjoy it ")
-graph_type = input("Enter name of graph with you like to make analyses like (plot,pie,bar) :")
+graph_type = input("Enter name of graph with you like to make analyses like (line,pie,bar) :")
 print(f"you wood like to make graph {graph_type}")
 
-if graph_type == 'plot':
+if graph_type == 'line':
    num_points = int(input("Enter the number of data points you want to plot: "))
 
    values_x = []
