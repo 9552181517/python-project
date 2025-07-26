@@ -45,7 +45,8 @@ elif graph_type == 'pie':
       enterarray.append(valuesinarray)
       #append the values in the empty array with we have been declar on the top
       pielabels.append(labelspie) 
-     plt.pie(enterarray,labels=pielabels) 
+     plt.pie(enterarray,labels=pielabels)
+     plt.legend()
      plt.show()
 elif graph_type == 'exit or Exit':
   pass
