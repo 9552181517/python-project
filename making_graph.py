@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 print("Welcome to all, make your graphs  like pie graph,plot graph,bar graph if you want to exit simply type exit/Exit  ")
 print("i am working on this program . i try to add more special fretures till enjoy it ")
-graph_type = input("Enter name of graph with you like to make analyses like (Line,Pie,Bar) :").lower()
+graph_type = input("Enter name of graph with you like to make analyses like (Line,Pie,Bar,Scatter) :").lower()
 print(f"you wood like to make {graph_type}  graph ")
 
 if graph_type == 'plot':
@@ -99,3 +99,4 @@ elif graph_type == "scatter":
     
 else:
     print("Invalid graph type selected.")
+
